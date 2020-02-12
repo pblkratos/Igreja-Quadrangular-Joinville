@@ -1,0 +1,187 @@
+.borda{
+  background-color: white;
+}
+
+.shadow{
+  box-shadow: 0px 0px 0px 0px !important;
+}
+
+.label{
+  font-size: 5px;
+}
+
+.eventoBox{
+  background-color: white;
+  height: 500px;
+}
+
+.margintop{
+  margin-top: 50px;
+}
+
+.marginbot{
+  margin-bottom: 50px;
+}
+
+.boxTitulo{
+  padding: 40px;
+  background-color: #7fa9ef;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+.testesss{
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.testesss:hover{
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.transicao:hover{
+  transition: 1s;
+}
+
+.alterado{
+  border: 1px solid limegreen !important;
+}
+
+.erro{
+  border: 1px solid red !important;
+}
+
+.alterado:active{
+  box-shadow: 0px 0px 1px 1px #33e06a !important;
+  transition-property: border;
+  transition-duration: 5s;
+}
+
+.alinhar{
+  width: 476px;
+  margin-top: 10px;
+}
+
+/*box */
+.perfil{
+  margin-top: 10px;
+  /*border: 1px solid black;*/
+}
+
+
+.boxEvento{
+  width: 476px;
+  border: 1px solid black;
+  /*background-color: #aaa791;*/
+  margin-top: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.boxInput{
+  margin-top: 10px;
+  height: 230px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+
+/*inputs */
+.inputs{
+  margin-top: 80px;
+
+}
+
+
+.inputOp[readonly]{
+  opacity: 0 !important;
+  transition: ease, opacity 0.2s ease;
+}
+
+.inputPerfil{
+  width: 400px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: 0;
+}
+
+.fotoEvento{
+  height:150px;
+  width: 150px;
+
+}
+
+.fotoPerfil{
+  height:150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+/* evento */
+
+.tituloEvento{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.boxData{
+  position: absolute;
+  padding-right: 7px;
+  width: 55px;
+  height: 150px;
+  /*border: 1px solid red;*/
+  margin-left: 155px;
+  border-right: 1px solid black;
+}
+
+.boxTituloDesc{
+  position: relative;
+  text-align: center;
+  width: 270px;
+  height: 150px;
+  /*border: 1px solid red;*/
+  margin-left: 205px;
+}
+
+.eventoImg{
+float: left;
+}
+
+.filtro{
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.eventoMes{
+  float:right;
+  color: #000000ee;
+}
+
+.eventoData{
+  margin-top: -10px;
+  float: right;
+  color: #000000bb;
+}
+
+.eventoNome{
+  color: #000000ee;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Righteous', cursive;
+}
+
+.eventoEndereco{
+  color: #000000bb;
+  width: 270px;
+  margin-top: 9px;
+  text-align: center;
+}
