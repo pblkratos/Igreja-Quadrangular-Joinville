@@ -69,7 +69,7 @@ session_start();
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top m-b-0">
             <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></a>
-                <div class="top-left-part"><a class="logo" href="administrador.php?folder=page&file=inicio.php"><b><img src="../plugins/images/pixeladmin-logo.png" alt="home" /></b><span class="hidden-xs"><img src="../plugins/images/pixeladmin-text.png" alt="home" /></span></a></div>
+                <div class="top-left-part"><a class="logo" href="administrador.php?folder=page&file=inicio.php"><b>Liberty</b><span class="hidden-xs"></span></a></div>
                 <ul class="nav navbar-top-links navbar-right pull-right">
                     <li>
                         <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="../plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><?php echo " " . $_SESSION['nome']; ?></a>
@@ -86,11 +86,7 @@ session_start();
 
                 </ul>
             </div>
-            <!-- /.navbar-header -->
-            <!-- /.navbar-top-links -->
-            <!-- /.navbar-static-side -->
         </nav>
-        <!-- Left navbar-header -->
         <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav navbar-collapse slimscrollsidebar">
                 <ul class="nav" id="side-menu">
@@ -117,8 +113,6 @@ session_start();
                 </div>
             </div>
         </div>
-        <!-- Left navbar-header end -->
-        <!-- Page Content -->
         <div id="page-wrapper">
 
            <?php
@@ -135,26 +129,16 @@ session_start();
 
             <!-- /.container-fluid -->
 
-            <footer class="footer text-center"> 2019 &copy; Igreja do povo de Deus by wrapvic.com </footer>
+            <footer class="footer text-center"> 2019 &copy; Igreja do povo de Deus</footer>
         </div>
-        <!-- /#page-wrapper -->
     </div>
-    <!-- /#wrapper -->
-    <!-- jQuery -->
     <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Menu Plugin JavaScript -->
     <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
-    <!--slimscroll JavaScript -->
     <script src="js/jquery.slimscroll.js"></script>
-    <!--Wave Effects -->
     <script src="js/waves.js"></script>
-    <!--Counter js -->
     <script src="../plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
     <script src="../plugins/bower_components/counterup/jquery.counterup.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
     <script src="js/custom.min.js"></script>
     <script src="js/dashboard1.js"></script>
     <script src="../plugins/bower_components/toast-master/js/jquery.toast.js"></script>
